@@ -1,2 +1,0 @@
-/usr/bin/ar qc libex_lib.a CMakeFiles/ex_lib.dir/d/formatter_ex.cpp.o
-/usr/bin/ranlib libex_lib.a
