@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
 set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 project(solver)
-set(solve ~/solver_lib/d/solver.cpp)
+set(solve ~/lab04/solver_lib/d/solver.cpp)
 add_library(solver_lib STATIC ${solve})

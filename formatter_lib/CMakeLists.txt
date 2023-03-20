@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22.1)
 set(CMAKE_CXX_COMPILER "/usr/bin/g++")
 project(formatter_lib)
-set(Formation ~/formatter_lib/d/formatter.cpp)
+set(Formation ~/lab04/formatter_lib/d/formatter.cpp)
 add_library(formatter_lib STATIC ${Formation})
