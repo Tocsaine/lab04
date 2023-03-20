@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tocsaine/solver_lib
+CMAKE_SOURCE_DIR = /home/tocsaine/lab04/solver_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tocsaine/solver_lib/prep
+CMAKE_BINARY_DIR = /home/tocsaine/lab04/solver_lib/prep
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/solver_lib/prep/CMakeFiles /home/tocsaine/solver_lib/prep//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/lab04/solver_lib/prep/CMakeFiles /home/tocsaine/lab04/solver_lib/prep//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/solver_lib/prep/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/lab04/solver_lib/prep/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named solver
+# Target rules for targets named solver_lib
 
 # Build rule for target.
-solver: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solver
-.PHONY : solver
+solver_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 solver_lib
+.PHONY : solver_lib
 
 # fast build rule for target.
-solver/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/build
-.PHONY : solver/fast
+solver_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver_lib.dir/build.make CMakeFiles/solver_lib.dir/build
+.PHONY : solver_lib/fast
 
 d/solver.o: d/solver.cpp.o
 .PHONY : d/solver.o
 
 # target to build an object file
 d/solver.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/d/solver.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver_lib.dir/build.make CMakeFiles/solver_lib.dir/d/solver.cpp.o
 .PHONY : d/solver.cpp.o
 
 d/solver.i: d/solver.cpp.i
@@ -142,7 +142,7 @@ d/solver.i: d/solver.cpp.i
 
 # target to preprocess a source file
 d/solver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/d/solver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver_lib.dir/build.make CMakeFiles/solver_lib.dir/d/solver.cpp.i
 .PHONY : d/solver.cpp.i
 
 d/solver.s: d/solver.cpp.s
@@ -150,7 +150,7 @@ d/solver.s: d/solver.cpp.s
 
 # target to generate assembly for a file
 d/solver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver.dir/build.make CMakeFiles/solver.dir/d/solver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/solver_lib.dir/build.make CMakeFiles/solver_lib.dir/d/solver.cpp.s
 .PHONY : d/solver.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... solver"
+	@echo "... solver_lib"
 	@echo "... d/solver.o"
 	@echo "... d/solver.i"
 	@echo "... d/solver.s"

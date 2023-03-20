@@ -1,7 +1,7 @@
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o: \
- /home/tocsaine/formatter_ex_lib/d/formatter_ex.cpp \
+ /home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.cpp \
  /usr/include/stdc-predef.h \
- /home/tocsaine/formatter_ex_lib/d/formatter_ex.h \
+ /home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.h \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -151,4 +151,4 @@ CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc \
- /home/tocsaine/formatter_ex_lib/../formatter_lib/d/formatter.h
+ /home/tocsaine/lab04/formatter_ex_lib/../formatter_lib/d/formatter.h

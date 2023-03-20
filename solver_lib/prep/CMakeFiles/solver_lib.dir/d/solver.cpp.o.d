@@ -1,6 +1,6 @@
-CMakeFiles/solver.dir/d/solver.cpp.o: \
- /home/tocsaine/solver_lib/d/solver.cpp /usr/include/stdc-predef.h \
- /home/tocsaine/solver_lib/d/solver.h /usr/include/c++/11/math.h \
+CMakeFiles/solver_lib.dir/d/solver.cpp.o: \
+ /home/tocsaine/lab04/solver_lib/d/solver.cpp /usr/include/stdc-predef.h \
+ /home/tocsaine/lab04/solver_lib/d/solver.h /usr/include/c++/11/math.h \
  /usr/include/c++/11/cmath \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

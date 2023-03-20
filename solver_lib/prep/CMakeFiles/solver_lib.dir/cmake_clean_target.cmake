@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "libsolver.a"
+  "libsolver_lib.a"
 )

@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/tocsaine/formatter_ex_lib/../formatter_lib/d
+CXX_INCLUDES = -I/home/tocsaine/lab04/formatter_ex_lib/../formatter_lib/d
 
 CXX_FLAGS = 
 

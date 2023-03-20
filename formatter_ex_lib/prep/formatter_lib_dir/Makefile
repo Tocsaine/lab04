@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tocsaine/formatter_ex_lib
+CMAKE_SOURCE_DIR = /home/tocsaine/lab04/formatter_ex_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tocsaine/formatter_ex_lib/prep
+CMAKE_BINARY_DIR = /home/tocsaine/lab04/formatter_ex_lib/prep
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/tocsaine/formatter_ex_lib/prep && $(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/formatter_ex_lib/prep/CMakeFiles /home/tocsaine/formatter_ex_lib/prep/formatter_lib_dir//CMakeFiles/progress.marks
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/formatter_ex_lib/prep/CMakeFiles 0
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/lab04/formatter_ex_lib/prep/CMakeFiles /home/tocsaine/lab04/formatter_ex_lib/prep/formatter_lib_dir//CMakeFiles/progress.marks
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tocsaine/lab04/formatter_ex_lib/prep/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/clean
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/preinstall
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/preinstall
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 formatter_lib_dir/CMakeFiles/formatter_lib.dir/rule:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/CMakeFiles/formatter_lib.dir/rule
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 formatter_lib_dir/CMakeFiles/formatter_lib.dir/rule
 .PHONY : formatter_lib_dir/CMakeFiles/formatter_lib.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ formatter_lib: formatter_lib_dir/CMakeFiles/formatter_lib.dir/rule
 
 # fast build rule for target.
 formatter_lib/fast:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/build
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/build
 .PHONY : formatter_lib/fast
 
 d/formatter.o: d/formatter.cpp.o
@@ -135,7 +135,7 @@ d/formatter.o: d/formatter.cpp.o
 
 # target to build an object file
 d/formatter.cpp.o:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.o
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.o
 .PHONY : d/formatter.cpp.o
 
 d/formatter.i: d/formatter.cpp.i
@@ -143,7 +143,7 @@ d/formatter.i: d/formatter.cpp.i
 
 # target to preprocess a source file
 d/formatter.cpp.i:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.i
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.i
 .PHONY : d/formatter.cpp.i
 
 d/formatter.s: d/formatter.cpp.s
@@ -151,7 +151,7 @@ d/formatter.s: d/formatter.cpp.s
 
 # target to generate assembly for a file
 d/formatter.cpp.s:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.s
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(MAKE) $(MAKESILENT) -f formatter_lib_dir/CMakeFiles/formatter_lib.dir/build.make formatter_lib_dir/CMakeFiles/formatter_lib.dir/d/formatter.cpp.s
 .PHONY : d/formatter.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

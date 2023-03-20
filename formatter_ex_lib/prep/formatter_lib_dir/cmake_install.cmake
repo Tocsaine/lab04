@@ -1,4 +1,4 @@
-# Install script for directory: /home/tocsaine/formatter_lib
+# Install script for directory: /home/tocsaine/lab04/formatter_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

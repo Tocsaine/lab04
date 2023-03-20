@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/tocsaine/formatter_ex_lib/d/formatter_ex.cpp" "CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o" "gcc" "CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o.d"
+  "/home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.cpp" "CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o" "gcc" "CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tocsaine/formatter_ex_lib/prep/formatter_lib_dir/CMakeFiles/formatter_lib.dir/DependInfo.cmake"
+  "/home/tocsaine/lab04/formatter_ex_lib/prep/formatter_lib_dir/CMakeFiles/formatter_lib.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

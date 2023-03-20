@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/tocsaine/formatter_ex_lib
+CMAKE_SOURCE_DIR = /home/tocsaine/lab04/formatter_ex_lib
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/tocsaine/formatter_ex_lib/prep
+CMAKE_BINARY_DIR = /home/tocsaine/lab04/formatter_ex_lib/prep
 
 # Include any dependencies generated for this target.
 include CMakeFiles/formatter_ex_lib.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/formatter_ex_lib.dir/flags.make
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o: CMakeFiles/formatter_ex_lib.dir/flags.make
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o: ../d/formatter_ex.cpp
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o: CMakeFiles/formatter_ex_lib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tocsaine/formatter_ex_lib/prep/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o -c /home/tocsaine/formatter_ex_lib/d/formatter_ex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/tocsaine/lab04/formatter_ex_lib/prep/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o -MF CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o.d -o CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o -c /home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.cpp
 
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tocsaine/formatter_ex_lib/d/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.cpp > CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.i
 
 CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tocsaine/formatter_ex_lib/d/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/tocsaine/lab04/formatter_ex_lib/d/formatter_ex.cpp -o CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.s
 
 # Object files for target formatter_ex_lib
 formatter_ex_lib_OBJECTS = \
@@ -93,7 +93,7 @@ formatter_ex_lib_EXTERNAL_OBJECTS =
 libformatter_ex_lib.a: CMakeFiles/formatter_ex_lib.dir/d/formatter_ex.cpp.o
 libformatter_ex_lib.a: CMakeFiles/formatter_ex_lib.dir/build.make
 libformatter_ex_lib.a: CMakeFiles/formatter_ex_lib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tocsaine/formatter_ex_lib/prep/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tocsaine/lab04/formatter_ex_lib/prep/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libformatter_ex_lib.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/formatter_ex_lib.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/formatter_ex_lib.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/formatter_ex_lib.dir/clean:
 .PHONY : CMakeFiles/formatter_ex_lib.dir/clean
 
 CMakeFiles/formatter_ex_lib.dir/depend:
-	cd /home/tocsaine/formatter_ex_lib/prep && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tocsaine/formatter_ex_lib /home/tocsaine/formatter_ex_lib /home/tocsaine/formatter_ex_lib/prep /home/tocsaine/formatter_ex_lib/prep /home/tocsaine/formatter_ex_lib/prep/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/tocsaine/lab04/formatter_ex_lib/prep && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/tocsaine/lab04/formatter_ex_lib /home/tocsaine/lab04/formatter_ex_lib /home/tocsaine/lab04/formatter_ex_lib/prep /home/tocsaine/lab04/formatter_ex_lib/prep /home/tocsaine/lab04/formatter_ex_lib/prep/CMakeFiles/formatter_ex_lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/formatter_ex_lib.dir/depend
 

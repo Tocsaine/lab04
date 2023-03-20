@@ -1,4 +1,4 @@
-# Install script for directory: /home/tocsaine/formatter_ex_lib
+# Install script for directory: /home/tocsaine/lab04/formatter_ex_lib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/tocsaine/formatter_ex_lib/prep/formatter_lib_dir/cmake_install.cmake")
+  include("/home/tocsaine/lab04/formatter_ex_lib/prep/formatter_lib_dir/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -55,5 +55,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/tocsaine/formatter_ex_lib/prep/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/tocsaine/lab04/formatter_ex_lib/prep/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
